@@ -1,0 +1,72 @@
+body{
+    width: 1152px;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+.pink_rectangle{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    border-bottom-left-radius: 160px;
+    background-color: pink;
+    z-index: -999;
+    right: 0;
+}
+.header{
+    display: flex;
+    height: 80px;
+    position: relative;
+}
+
+.logo {
+    margin-left: 80px;
+    margin-top: 24px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.name{
+    color: #3E3F43;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 8px;
+    margin-top: 23px;
+    line-height: 33px;
+    letter-spacing: 25%;
+}
+
+.nav{
+    color: rgb(34, 34, 34, 0.75);
+    line-height: 22px;
+    font-size: 16px;
+    margin-left: 115px;
+    height: 40px;
+    margin-top: 20px;
+    letter-spacing: 0%;
+}
+
+.nav ul{
+    width: 737px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li:first-child{
+    color:#DAA520;
+    font-weight: 800;
+}
+
+nav ul li:last-child{
+    border: 1px solid #3E3F43;
+    padding: 9px 36px;
+    border-radius: 8px;
+    color: rgb(34, 34, 34, 0.75);
+    font-weight: 700;
+}
